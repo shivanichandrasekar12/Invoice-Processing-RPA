@@ -7,6 +7,15 @@ This project demonstrates an Intelligent Automation (IA) solution that bridges l
 
 By integrating AI-based validation logic, this solution reduces manual touchpoints by 45% and accelerates decision-heavy workflows.
 
+├── src/
+│   ├── graph_api_handler.py    # Fetches invoices from Outlook
+│   ├── invoice_classifier.py   # AI/ML logic for categorization
+│   ├── automation_logger.py    # Custom logging for RPA audit trails
+├── data/
+│   └── training_data.csv       # Sample data for the ML model
+├── requirements.txt            # Project dependencies
+└── main.py                     # Entry point for Blue Prism to call
+
 
 **🛠 Technical Stack**
 
